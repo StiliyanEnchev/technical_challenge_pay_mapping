@@ -1,10 +1,10 @@
-# 💼 Payroll Data Validator
+# Payroll Data Validator
 
 Automated Python tests to ensure payroll data consistency and integrity across multiple sources.
 
 ---
 
-## 📂 Project Overview
+## Project Overview
 
 This project validates payroll data between three sources:
 
@@ -16,7 +16,7 @@ The goal is to guarantee data integrity, accurate mappings, and reliable payroll
 
 ---
 
-## 🛠 Features & Checks
+## Features & Checks
 
 Automated Python unit tests verify:
 
@@ -33,16 +33,10 @@ Automated Python unit tests verify:
 
 ---
 
-## ⚡ Tech Stack
+## Tech Stack
 
 - Python 3.x  
 - `pandas` for Excel processing  
 - `unittest` for automated tests  
 
 ---
-
-## 🚀 How to Use
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/payroll-data-validator.git
