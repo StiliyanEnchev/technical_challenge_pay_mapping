@@ -1,16 +1,48 @@
-This project validates payroll data consistency between three sources:
+# 💼 Payroll Data Validator
 
-GTN file - payroll input file
-Payrun file - processed payroll output
-mapping.json - configuration file defining how GTN pay elements map to Payrun columns
+Automated Python tests to ensure payroll data consistency and integrity across multiple sources.
 
-The system uses automated Python unit tests to verify:
+---
 
-The GTN file is a valid Excel file:
+## 📂 Project Overview
 
-Required headers exist and are in correct order
-No unexpected empty rows exist
-All GTN pay elements are properly mapped
-All Payrun pay elements have corresponding GTN mappings
-Pay element values are numeric
-The goal of the project is to ensure data integrity, mapping accuracy, and payroll calculation reliability before further processing.
+This project validates payroll data between three sources:
+
+- **GTN file** – Payroll input file  
+- **Payrun file** – Processed payroll output  
+- **mapping.json** – Defines how GTN pay elements map to Payrun columns  
+
+The goal is to guarantee data integrity, accurate mappings, and reliable payroll calculations before further processing.
+
+---
+
+## 🛠 Features & Checks
+
+Automated Python unit tests verify:
+
+1. **GTN file validity**  
+   - Required headers exist and are in the correct order  
+   - No unexpected empty rows  
+
+2. **Mapping accuracy**  
+   - All GTN pay elements are properly mapped  
+   - All Payrun pay elements have corresponding GTN mappings  
+
+3. **Data integrity**  
+   - All pay element values are numeric  
+
+---
+
+## ⚡ Tech Stack
+
+- Python 3.x  
+- `pandas` for Excel processing  
+- `unittest` for automated tests  
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/payroll-data-validator.git
