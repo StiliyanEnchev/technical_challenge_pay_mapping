@@ -4,7 +4,7 @@ Automated Python tests to ensure payroll data consistency and integrity across m
 
 ---
 
-## Project Overview
+## PROJECT OVERVIEW
 
 This project validates payroll data between three sources:
 
@@ -16,27 +16,31 @@ The goal is to guarantee data integrity, accurate mappings, and reliable payroll
 
 ---
 
-## Features & Checks
+## FEATURES & CHECKS
 
 Automated Python unit tests verify:
 
-1. **GTN file validity**  
-   - Required headers exist and are in the correct order  
-   - No unexpected empty rows  
+### 1. GTN File Validity
+- Required headers exist and are in the correct order  
+- No unexpected empty rows  
 
-2. **Mapping accuracy**  
-   - All GTN pay elements are properly mapped  
-   - All Payrun pay elements have corresponding GTN mappings  
+### 2. Mapping Accuracy
+- All GTN pay elements are properly mapped  
+- All Payrun pay elements have corresponding GTN mappings  
 
-3. **Data integrity**  
-   - All pay element values are numeric  
+### 3. Data Integrity
+- All pay element values are numeric  
 
 ---
 
-## Tech Stack
+## TECH STACK
 
 - Python 3.x  
 - `pandas` for Excel processing  
 - `unittest` for automated tests  
 
 ---
+
+## GOAL
+
+Ensure payroll data is consistent, correctly mapped, and fully validated before processing, reducing errors and increasing reliability.
